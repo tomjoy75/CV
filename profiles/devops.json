@@ -1,0 +1,8 @@
+{
+  "title": "Stage DevOps – École 42 Paris",
+  "include": {
+    "projects": ["inception", "transcendance"], 
+    "experiences": ["carlo_prod"],
+    "skills": ["docker", "git"]
+  }
+}

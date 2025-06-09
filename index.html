@@ -1,0 +1,43 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Thomas Joyeux</title>
+  <script defer src="render.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    @media print {
+      .no-print { display: none; }
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-900 font-sans">
+  <div class="max-w-4xl mx-auto p-8">
+    <div class="flex items-center gap-6 mb-6 justify-center">
+      <img src="https://avatars.githubusercontent.com/u/119454252?s=400&u=f91514079c7161f69bbea0f3256dafb151c9038a&v=4" alt="Photo Thomas Joyeux" class="w-48 h-48 rounded-full object-cover border-4 border-gray-300" />
+      <div class="text-center w-full">
+        <h1 class="text-4xl font-bold uppercase">Thomas Joyeux</h1>
+      <h2 class="text-xl text-gray-700 mt-1" id="cv-title">Intitulé du poste</h2>
+      </div>
+    </div>
+
+    <div class="flex justify-center gap-4 text-sm text-gray-600 mb-6" id="contact-info">
+      <!-- Coordonnées ici -->
+    </div>
+
+    <div id="summary" class="mb-8 text-justify text-sm leading-relaxed">
+      <!-- Présentation -->
+    </div>
+
+    <div id="cv-sections" class="space-y-6">
+      <!-- Sections dynamiques injectées ici -->
+    </div>
+
+    <div class="text-center mt-8 no-print">
+      <button onclick="window.print()" class="px-4 py-2 bg-blue-500 text-white rounded">Imprimer</button>
+    </div>
+  </div>
+</body>
+</html>

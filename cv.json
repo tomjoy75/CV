@@ -1,0 +1,44 @@
+{
+  "personal": {
+    "name": "Thomas Joyeux",
+    "title": "Stage DevOps – École 42 Paris",
+    "contact": {
+      "phone": "06 13 66 44 30",
+      "email": "tomjoy75@gmail.com",
+      "github": "https://github.com/tomjoy75",
+      "linkedin": "https://www.linkedin.com/in/thomas-joyeux-16a218135/"
+    },
+    "summary": "Actuellement en reconversion vers l’informatique, je me forme au développement et à l’administration système à l’École 42 Paris. Autonome, rigoureux et polyvalent, je cherche à consolider mes compétences DevOps au sein d’une équipe exigeante et bienveillante."
+  },
+  "skills": [
+    { "id": "c", "label": "C" },
+    { "id": "docker", "label": "Docker" },
+    { "id": "git", "label": "Git" }
+  ],
+  "projects": [
+    {
+      "id": "inception",
+      "name": "Inception",
+      "description": "Infra dockerisée avec NGINX, WordPress, MariaDB, TLS 1.3",
+      "stack": "Docker, Alpine Linux, Debian, Bash",
+      "tags": ["devops"]
+    },
+    {
+      "id": "transcendance",
+      "name": "Transcendence",
+      "description": "Jeu multijoueur SPA avec WebSockets",
+      "stack": "Node.js, TS, Docker",
+      "tags": ["fullstack"]
+    }
+  ],
+  "experiences": [
+    {
+      "id": "carlo_prod",
+      "role": "Administrateur de production",
+      "company": "CarloProd",
+      "dates": "2018–2023",
+      "description": "Organisation de tournées, gestion d’équipe, site web...",
+      "tags": ["organisation"]
+    }
+  ]
+}
